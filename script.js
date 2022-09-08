@@ -57,6 +57,4 @@ $("#cssmenu").menumaker({
 });
 })(jQuery);
 
-window.onload = function(){
- document.getElementById("audio").play();
-}
+
