@@ -12,6 +12,27 @@
 <div id="row-container">
 <audio src="https://raw.githubusercontent.com/fruitbox12/l3s/main/bf4.mp3" autoplay loop></audio>
 
+<audio id="myAudio">
+  <source src="https://raw.githubusercontent.com/fruitbox12/l3s/main/bf4.mp3" type="audio/ogg">
+  <source src="https://raw.githubusercontent.com/fruitbox12/l3s/main/bf4.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Click the buttons to play or pause the audio.</p>
+
+<button onclick="playAudio()" type="button">Play Audio</button>
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
  
 
 <nav id='cssmenu'>
