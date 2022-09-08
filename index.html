@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="./style.css">
  </style>
 </head>
-<body>
+<body onload="playAudio()">
    
 <!-- partial:index.partial.html -->
 <div id="row-container">
@@ -18,9 +18,7 @@
   Your browser does not support the audio element.
 </audio>
 
-<p>Click the buttons to play or pause the audio.</p>
 
-<button onclick="playAudio()" type="button">Play Audio</button>
 
 <script>
 var x = document.getElementById("myAudio"); 
